@@ -1,0 +1,6 @@
+---
+  
+- name: Install Inspec
+  win_chocolatey:
+    name: inspec
+    state: present
